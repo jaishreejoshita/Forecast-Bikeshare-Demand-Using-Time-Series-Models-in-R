@@ -1,10 +1,8 @@
 # Forecast Bikeshare Demand Using Time Series Models in R - A Coursera Project
-#=========================================
 Data Set
 =========================================
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
 
-#=========================================
 Associated tasks
 =========================================
 
@@ -17,7 +15,6 @@ Associated tasks
 		identified in [1]. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
 
 
-#=========================================
 Files
 =========================================
 
@@ -26,7 +23,6 @@ Files
 	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
 	
-#=========================================
 Dataset characteristics
 =========================================	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
